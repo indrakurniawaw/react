@@ -9,6 +9,7 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
+import News from "./SectionNews.jsx"
 
 import image1 from "assets/img/bg.jpg";
 import image2 from "assets/img/bg2.jpg";
@@ -32,7 +33,7 @@ export default function SectionCarousel() {
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={10} className={classes.marginAuto}>
+          <GridItem xs={6} sm={6} md={10} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
                 <div>
@@ -68,6 +69,7 @@ export default function SectionCarousel() {
                 </div>
               </Carousel>
             </Card>
+            <News/>
           </GridItem>
         </GridContainer>
       </div>
