@@ -36,13 +36,13 @@ export default function TeamSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <Button color="transparent" xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
-              </GridItem>
+              </Button>
               <h4 className={classes.cardTitle}>
                 Gigi Hadid
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Kepala Sekolah</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -79,13 +79,13 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <Button color="transparent" xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team2} alt="..." className={imageClasses} />
-              </GridItem>
+              </Button>
               <h4 className={classes.cardTitle}>
                 Christian Louboutin
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Wakil Kepala Sekolah</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -115,13 +115,13 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <Button color="transparent" xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              </Button>
               <h4 className={classes.cardTitle}>
                 Kendall Jenner
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>BK</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>

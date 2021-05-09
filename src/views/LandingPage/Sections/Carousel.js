@@ -33,7 +33,7 @@ export default function SectionCarousel() {
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={6} sm={6} md={10} className={classes.marginAuto}>
+          <GridItem maxWidth={12} xs={6} sm={6} md={10} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
                 <div>
